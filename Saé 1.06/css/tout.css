@@ -1,0 +1,34 @@
+*{
+   margin: 0%;
+   padding: 0%;
+}
+ul {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   overflow: hidden;
+   background-color: black;
+}
+ li {
+   float:left;
+}
+ li a {
+   display: block;
+   color: white;
+   text-align: center;
+   padding: 33px 20px;
+   text-decoration: none;
+ 
+}
+li a:hover:not(.active) {
+   background-color: #111;
+} 
+.active {
+   background-color: rgb(252,36,66);
+}
+#EAPNG{
+   height: 85px;
+}
+#RSPNG{
+   height:50px;
+}
