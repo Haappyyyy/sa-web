@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+  <html lang="fr">
+  <head>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+      <link rel="stylesheet" href="css/navbar.css" />
+      <link rel="stylesheet" href="css/footer.css" />
+      <link rel="stylesheet" href="css/formulaire.css"/>
+      <link rel="stylesheet" href="css/body.css" />      
+      <meta charset="UTF-8">
+      <title>Page de présentation EA </title>
+  </head>
+  <header>
+     <nav class="navbar">
+          <ul>
+              <li><img id="EAPNG" src="images/EA.png" alt="EA"></li>
+              <li><a href="acceuil.html" class="active">Accueil</a></li>
+              <li><a href="projet.html">Projets</a></li>
+              <li><a href="contact.html"> Contact</a></li>
+              <li><a href="about.html"> About</a></li>
+            </ul>
+      </nav>
+    </header>
+    <body>
+        <br>
+        <h1>Paiement</h1><br>
+        <form action="">
+        <label for="nomcb">Nom du Titulaire</label><br>
+        <input type="text" id="nomcb" name="nomcb" value=""><br><br>
+        <label for="pays">Choisissez votre pays :</label><br>
+        <select id="pays" name="pays">
+            <option value="france">France</option>
+            <option value="belgique">Belgique</option>
+            <option value="luxembourg">Luxembourg</option>
+            <option value="allemange">Allemagne</option>
+        </select><br><br>
+        <label for="cardnumber">Numéro de carte</label><br>
+        <input type="number" id="cardnumber" name="cardnumber" value=""><br><br>
+        <label for="expirate">Date d'expiration</label><br>
+        <input type="month" id="expirate" name="expirate" value=""><br><br>
+        <label for="CVV">Cryptogramme</label><br>
+        <input type="number" id="CVV" name="CVV" value=""><br><br>
+        <input type="submit" onclick="alert('Votre paiment à été effectuer !');" value="Valider">
+        </form>
+        <section class="explication">
+            <h3>A quoi sert ce formulaire ?</h3>
+            <br>
+            <p>Cela vous permet de rentrer la somme en euro que vous êtes capable de mettre pour vos futurs trajets.</p><br>
+            <h4>Information importante</h4>
+            <br>
+            <p>Nous considérons bien évidemment que vous avez les possibilités et les capacités de louer/déposer votre véhicule sans aucun soucis.</p>
+            <p>Nous considérons ceci comme acquis de chacun :</p><br>
+            <ul>
+              <li> - D'être conscient de la somme que vous avez mis </li>
+              <li> - Des remboursements peuvent se fair en cas de problème</li>
+            </ul><br>
+          </section>
+      </body>
+      <div class="footer-complet">
+        <footer>
+            <div class="container">
+                <div class="col1">
+                    <h3>Actualité</h3>
+                    <ul>
+                        <li><a href="rechercher.html">Nos services</a></li>
+                        <li><a href="projet.html">Nos projets</a></li>
+                    </ul>
+                </div>
+                <div class="col2">
+                    <h3>A propos de nous</h3>
+                    <ul>
+                        <li><a href="contact.html">Nous contacter</a></li>
+                        <li><a href="acceuil.html">Qui sommes nous</a></li>
+                    </ul>
+                </div>
+                <div class="col3">
+                    <h3>Se déplacer</h3>
+                    <ul>
+                        <li><a href="rechercher.html">Les aides à disposition</a></li>
+                        <li><a href="proposer.html">Proposer son aide</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 item social"><a href="https://www.facebook.com/ea.fr/?brand_redir=68678914189"><i class="icon ion-social-facebook"></i></a><a href="https://twitter.com/EA"><i class="icon ion-social-twitter"></i></a><a href="https://www.instagram.com/ea/"><i class="icon ion-social-instagram"></i></a>
+                    <p class="copyright">Electronics Arts © 2022</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</html>
