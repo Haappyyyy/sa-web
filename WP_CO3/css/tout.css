@@ -1,0 +1,34 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+}
+.navbar li {
+    float:left;
+}
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 33px 20px;
+    text-decoration: none;
+  
+}
+.navbar li a:hover:not(.active) {
+    background-color: #111;
+} 
+.navbar {
+    background-color: rgb(252,36,66);
+}
+#EAPNG{
+    height: 85px;
+}
+#RSPNG{
+    height:50px;
+}

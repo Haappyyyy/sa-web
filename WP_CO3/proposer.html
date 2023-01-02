@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+  <html lang="fr">
+    <title>Proposer un trajet</title>
+   
+  <head>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+      <link rel="stylesheet" href="css/navbar.css" />
+      <link rel="stylesheet" href="css/footer.css" />
+      <link rel="stylesheet" href="css/formulaire.css"/>
+      <meta charset="UTF-8">
+      <title>Page de présentation EA </title>
+  </head>
+  <header>
+    <nav class="navbar">
+          <ul>
+              <li><img id="EAPNG" src="images/EA.png" alt="EA"></li>
+              <li><a href="acceuil.html" class="active">Accueil</a></li>
+              <li><a href="https://www.ea.com/fr-fr/news"> News</a></li>
+              <li><a href="contact.html"> Contact</a></li>
+              <li><a href="about.html"> About</a></li>
+            </ul>
+      </nav>
+
+<br>
+      <h1>Proposer un trajet</h1><br>
+      <form action="">
+          <label for="fname">Nom:</label><br>
+          <input type="text" id="fname" name="fname" value=""><br><br>
+          <label for="lname">Prénom:</label><br>
+          <input type="text" id="lname" name="lname" value=""><br><br>
+          <label for="email">Entrez votre email</label><br>
+          <input type="email" id="email" name="email"><br><br>
+          <label for="disponibility">Entrez le jour de votre trajet</label><br>
+          <input type="date" id="disponibility" name="disponibility"><br><br>
+          <label for="appt">Veuillez choisir une heure pour votre trajet:</label><br>
+          <input type="time" id="appt" name="appt"
+                 min="07:00" max="20:00" required> <br><br>
+            <label for="tentacles">Entrez le nombre de personnes maximum </label><br>
+            <input type="number" id="personnes" name="personnes"
+                        min="1" max="4">
+        </form>
+
+            <div class="button"><br><br>
+                 <button type="submit">Confirmer le trajet</button>
+                        </div>
+                        <div class="footer-complet">
+                          <footer>
+                              <div class="container">
+                                  <div class="col1">
+                                      <h3>Actualité</h3>
+                                      <ul>
+                                          <li><a href="#">Nos services</a></li>
+                                          <li><a href="#">Nos projets</a></li>
+                                      </ul>
+                                  </div>
+                                  <div class="col2">
+                                      <h3>A propos de nous</h3>
+                                      <ul>
+                                          <li><a href="#">Nous contacter</a></li>
+                                          <li><a href="#">Qui sommes nous</a></li>
+                                      </ul>
+                                  </div>
+                                  <div class="col3">
+                                      <h3>Se déplacer</h3>
+                                      <ul>
+                                          <li><a href="#">Les aides à disposition</a></li>
+                                          <li><a href="#">Proposer son aide</a></li>
+                                      </ul>
+                                  </div>
+                                  <div class="col-lg-3 item social"><a href="#"><i class="icon ion-social-facebook"></i></a><a href="#"><i class="icon ion-social-twitter"></i></a><a href="#"><i class="icon ion-social-instagram"></i></a>
+                                      <p class="copyright">Company Name © 2018</p>
+                                  </div>
+                              </div>
+                          </footer>
+                      </div>
