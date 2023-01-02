@@ -5,6 +5,7 @@
       <link rel="stylesheet" href="css/navbar.css" />
       <link rel="stylesheet" href="css/footer.css" />
       <link rel="stylesheet" href="css/formulaire.css"/>
+      <link rel="stylesheet" href="css/body.css" />
       <meta charset="UTF-8">
       <title>Page de présentation EA </title>
   </head>
@@ -18,10 +19,11 @@
               <li><a href="about.html"> About</a></li>
             </ul>
       </nav>
-
+    </header>
+    <body>
+        <br>
       <h1>Réserver une voiture électrique</h1><br>
-      <form action="">
-       
+      <form action="">       
           <label for="fname">Nom:</label><br>
           <input type="text" id="fname" name="fname" value=""><br><br>
           <label for="lname">Prénom:</label><br>
@@ -34,11 +36,26 @@
         <option value="Renault">Renault</option>
         <option value="BMW">BMW</option>
         <option value="Toyota">Toyota</option>
-
+        <option value="Toyota">Pas de préférence</option>
         <div class="button"><br><br>
-                    <input type="button" onclick="window.location.href = '../pages/paiement.html';" value="Confirmer la réservation et payer "></button>
+            <input type="button" onclick="window.location.href = '../pages/paiement.html';" value="Confirmer"></button>
         </div>
       </form>
+      <section class="explication">
+        <h3>A quoi sert ce formulaire ?</h3>
+        <br>
+        <p>Vous recevrez un email pour que nous vous indiquions les trajets disponibles avec le type de véhicule choisis</p><br>
+        <h4>Information importante</h4>
+        <br>
+        <p>Nous considérons bien évidemment que vous avez les possibilités et les capacités de récupérer votre véhicule sans aucun soucis.</p>
+        <p>Nous considérons aussi ceci comme acquis de chacun :</p><br>
+        <ul>
+          <li> - De prendre soins du véhicule emprunté.</li>
+          <li> - Des frais supplémentaires peuvent arriver si le véhicule est endommager.</li>
+          <li> - Le véhicule doit être redéposer à l'endroit ou il a été emprunté.</li>          
+        </ul><br>
+      </section>
+    </body>
         <div class="footer-complet">
           <footer>
               <div class="container">

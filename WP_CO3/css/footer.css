@@ -2,9 +2,9 @@
     padding:50px 0;
     background-color:#fff;
     color:#4b4c4d;
-    position:fixed;
+    position:relative;
     bottom:0;
-    padding-left: 33%;
+    padding-left: 3%;
 }
   
 .footer-complet h3 {

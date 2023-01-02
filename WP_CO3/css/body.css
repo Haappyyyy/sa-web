@@ -1,0 +1,19 @@
+h1{
+    font-size: 130%;
+    text-align: center;
+    color:rgb(139, 133, 133);
+}
+.explication{
+    padding-top: 20px;
+    background-color: rgb(226, 221, 221);
+    margin-top: 50px;
+    text-align: center;
+}
+.explication h3{
+    font-size: 140%;
+    color: red;
+}
+.explication h4{
+    font-size: 150%;
+    color: red;
+}
