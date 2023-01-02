@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+  <html lang="fr">
+    <title>Proposer un trajet</title>
+   
+  <head>
+      <link rel="stylesheet" href="../css/tout.css" />
+      <link rel="stylesheet" href="../css/formulaire.css"/>
+      <meta charset="UTF-8">
+      <title>Page de présentation EA </title>
+  </head>
+  <header>
+      <nav>
+          <ul>
+              <li><img id="EAPNG" src="../images/EA.png" alt="EA"></li>
+              <li><a href="../acceuil.html" class="active">Accueil</a></li>
+              <li><a href="https://www.ea.com/fr-fr/news"> News</a></li>
+              <li><a href="../pages/contact.html"> Contact</a></li>
+              <li><a href="../pages/about.html"> About</a></li>
+            </ul>
+      </nav>
+
+<br>
+      <h1>Proposer un trajet</h1><br>
+      <form action="">
+          <label for="fname">Nom:</label><br>
+          <input type="text" id="fname" name="fname" value=""><br><br>
+          <label for="lname">Prénom:</label><br>
+          <input type="text" id="lname" name="lname" value=""><br><br>
+          <label for="email">Entrez votre email</label><br>
+          <input type="email" id="email" name="email"><br><br>
+          <label for="disponibility">Entrez le jour de votre trajet</label><br>
+          <input type="date" id="disponibility" name="disponibility"><br><br>
+          <label for="appt">Veuillez choisir une heure pour votre trajet:</label><br>
+          <input type="time" id="appt" name="appt"
+                 min="07:00" max="20:00" required> <br><br>
+            <label for="tentacles">Entrez le nombre de personnes maximum </label><br>
+            <input type="number" id="personnes" name="personnes"
+                        min="1" max="4">
+            
+
+            <div class="button"><br><br>
+                 <button type="submit">Confirmer le trajet</button>
+                        </div>
+    
